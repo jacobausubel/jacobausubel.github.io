@@ -7,6 +7,7 @@
 main:
   - title: "Curriculum Vitae"
     url: /cv/
+    url: /files/Ausubel_CV.pdf
 
   - title: "Research"
     url: /research/    
