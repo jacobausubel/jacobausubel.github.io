@@ -5,8 +5,23 @@ permalink: /teaching/
 author_profile: true
 ---
 
+{% comment %}
+
 {% include base_path %}
 
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
+{% endfor %}
+
+{% endcomment %}
+
+{% include base_path %}
+
+{% for post in site.teaching reversed %}
+  {% if post.collection == "teaching" %}
+    <meta http-equiv="refresh" content="0; url=https://bulletin.gwu.edu/courses/psc/">
+    <p>If you are not redirected, <a href="https://bulletin.gwu.edu/courses/psc/">click here</a>.</p>
+  {% else %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
