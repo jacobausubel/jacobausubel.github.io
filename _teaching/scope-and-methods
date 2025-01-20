@@ -4,7 +4,9 @@ collection: teaching
 permalink: /teaching/scope-and-methods
 type: "Discussion sections"
 venue: "George Washington University"
-date: 2024-09-01
+date:
+  - "2024-09-01"
+  - "2023-09-01"
 
 ---
 
