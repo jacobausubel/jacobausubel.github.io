@@ -60,7 +60,7 @@
       <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
       {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}
     </strong>
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date }}</time>
+    {{ post.date }}  <!-- Just display the date or string directly -->
   </p>
 {% endif %}
     
