@@ -5,15 +5,13 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% comment %}
-
 {% include base_path %}
 
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
-{% endcomment %}
+{% comment %}
 
 {% include base_path %}
 
@@ -25,3 +23,5 @@ author_profile: true
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+
+{% endcomment %}
