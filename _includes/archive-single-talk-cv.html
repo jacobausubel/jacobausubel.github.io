@@ -35,6 +35,14 @@
     {% else %}
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
     {% endif %}
+
+{% if page.collection == "teaching" %}
+  <meta http-equiv="refresh" content="0; url=https://bulletin.gwu.edu/courses/psc/">
+  <p>If you are not redirected, <a href="https://bulletin.gwu.edu/courses/psc/">click here</a>.</p>
+{% endif %}
+
+
+      
   {% endif %}
     </h3>
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
