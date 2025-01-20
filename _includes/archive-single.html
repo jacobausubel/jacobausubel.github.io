@@ -53,9 +53,9 @@
 {% endif %}
 
 {% if post.collection == 'teaching' %}
-  <p> {{ post.type }}, <i>{{ post.venue }}</i>{% if post.dates %}, {{ post.dates | join: ', ' }}{% endif %} </p>
+  <p> {{ post.type }}, <i>{{ post.venue }}</i>{% if post.dates %}, {{ post.dates | join: ', ' }}{% elsif post.date %}, {{ post.date | date: "%Y" }}{% endif %} </p>
 {% elsif post.collection == 'publications' %}
-  <p>Published in <i>{{ post.venue }}</i>{% if post.dates %}, {{ post.dates | join: ', ' }}{% endif %} </p>
+  <p>Published in <i>{{ post.venue }}</i>{% if post.dates %}, {{ post.dates | join: ', ' }}{% elsif post.date %}, {{ post.date | date: "%Y" }}{% endif %} </p>
 {% elsif post.dates %}
   <p class="page__date">
     <strong>
@@ -64,6 +64,16 @@
     </strong>
     <time datetime="{{ post.dates | first | date_to_xmlschema }}">
       {{ post.dates | join: ', ' }}
+    </time>
+  </p>
+{% elsif post.date %}
+  <p class="page__date">
+    <strong>
+      <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+      {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}
+    </strong>
+    <time datetime="{{ post.date | date_to_xmlschema }}">
+      {{ post.date | date: "%B %d, %Y" }}
     </time>
   </p>
 {% endif %}
