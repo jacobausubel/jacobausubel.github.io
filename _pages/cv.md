@@ -6,4 +6,4 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-You can download the latest version of my academic CV [here](/files/Ausubel.pdf).
+You can download the latest version of my academic CV [here](/files/Ausubel_CV.pdf).
