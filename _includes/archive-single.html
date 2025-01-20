@@ -67,6 +67,10 @@
   <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
 {% endif %}
 
+{% if page.collection == "teaching" %}
+  <meta http-equiv="refresh" content="0; url=https://bulletin.gwu.edu/courses/psc/">
+  <p>If you are not redirected, <a href="https://bulletin.gwu.edu/courses/psc/">click here</a>.</p>
+{% endif %}
 
     
 
