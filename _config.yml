@@ -218,7 +218,6 @@ kramdown:
 collections:
   teaching:
     output: false
-      redirect: "https://bulletin.gwu.edu/courses/psc/"
   publications:
     output: true
     permalink: /:collection/:path/
