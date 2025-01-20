@@ -350,9 +350,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-# Time
-{% assign start_year = page.start_date | date: "%Y" %}
-{% assign end_year = page.end_date | date: "%Y" %}
-
-<p>Course Offered: {{ start_year }} - {{ end_year }}</p>
