@@ -3,4 +3,8 @@ title: "Introduction to American Politics"
 collection: teaching
 ---
 
+<h3 class="archive__item-title" itemprop="headline">
+  <a href="https://bulletin.gwu.edu/courses/psc/" target="_blank">{{ page.title }}</a>
+</h3>
+
 George Washington University, 2023 <br> <br> An introductory undergraduate course that covers the three branches of American government, political parties, elections, public opinion, interest groups, and the federal bureaucracy.
