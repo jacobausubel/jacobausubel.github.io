@@ -4,10 +4,12 @@ collection: teaching
 type: "Discussion sections"
 permalink: /teaching/scope-and-methods
 venue: "George Washington University"
-date: "2023, 2024"
+date:
+  - "2023"
+  - "2024"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+An introductory undergraduate course that covers R programming, causal effects, descriptive statistics, probability, and linear regression.
 
 Heading 1
 ======
