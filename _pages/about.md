@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a PhD student in Political Science at George Washington University, specializing in American Politics and Research Methods. My areas of interest include elections, mis/disinformation, and public opinion. My research incorporates original survey experiments, machine learning, and panel models to answer questions related to American political behavior.
+Welcome to my website! I am a PhD student in Political Science at George Washington University, specializing in American Politics and Research Methods. My areas of interest include elections, mis/disinformation, and public opinion.
 
 Beyond research, I also serve as a teaching assistant in my department. I have led discussion sections for two courses: Introduction to American Politics (PSC-1002) and Scope and Methods of Political Science (PSC-2101).
 
