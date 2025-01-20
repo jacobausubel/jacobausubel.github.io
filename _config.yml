@@ -21,7 +21,7 @@ repository               : "jacobausubel/jacobausubel.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "jacobausubel.JPG"
   name             : "Jacob Ausubel"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in Political Science"
