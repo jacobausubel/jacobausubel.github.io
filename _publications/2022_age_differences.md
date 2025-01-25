@@ -3,7 +3,7 @@ title: "Measuring age differences among opposite-sex couples: Across religions a
 are older than their female partners."
 collection: publications
 category: manuscripts
-permalink: /files/Measuring age differences among different-sex couples - description.pdf
+permalink: /files/age_differences_abstract.pdf
 date: 2022-09-27
 venue: 'Population Studies'
 paperurl: 'https://www.tandfonline.com/doi/full/10.1080/00324728.2022.2094452'
