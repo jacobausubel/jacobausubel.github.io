@@ -8,8 +8,8 @@ main:
   - title: "Curriculum Vitae"
     url: /files/Ausubel_CV.pdf
 
-  - title: "Research"
-    url: /files/Ausubel_publications.html    
+  - title: "Publications"
+    url: /publications/  
 
   - title: "Teaching"
     url: /teaching/    
