@@ -9,6 +9,9 @@ main:
     url: /cv/
     url: /files/Ausubel_CV.pdf
 
+   - title: "Publications"
+    url: /publications/  
+
   - title: "Research"
     url: /files/Ausubel_publications.html    
 
