@@ -8,9 +8,6 @@ main:
   - title: "Curriculum Vitae"
     url: /files/Ausubel_CV.pdf
 
-   - title: "Publications"
-    url: /publications/ 
-
   - title: "Research"
     url: /files/Ausubel_publications.html    
 
