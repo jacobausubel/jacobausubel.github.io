@@ -7,8 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% for post in site.teaching %}
+  {% if post.title == "math-camp" %}
+    {% include archive-single.html %}
+  {% elsif post.title == "scope-and-methods" %}
+    {% include archive-single.html %}
+  {% elsif post.title == "intro-to-american" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
 {% comment %}
