@@ -11,7 +11,7 @@ locale                   : "Washington, DC"
 title                    : "Jacob Ausubel"
 title_separator          : "-"
 name                     : &name "Jacob Ausubel"
-description              : &description "PhD Student in Political Science"
+description              : &description "PhD Candidate in Political Science"
 url                      : https://jacobausubel.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jacobausubel/jacobausubel.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "jacobausubel_v2.JPG"
   name             : "Jacob Ausubel"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student in Political Science"
+  bio              : "PhD Candidate in Political Science"
   location         : "Washington, DC"
   employer         : "GWU"
   uri              : # URL
