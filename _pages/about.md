@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a PhD candidate in Political Science at George Washington University, specializing in American Politics and Research Methods. My areas of interest include elections, mis/disinformation, and public opinion. My three-paper dissertation examines election denial and the informational environment in the United States. More specifically, I study how politicians communicate about contested elections, how the news media cover politicians' positions on those elections, and when voters hold politicians accountable for election denial.
+Welcome! I am a PhD candidate in Political Science at George Washington University, specializing in American Politics and Research Methods. My areas of interest include elections, mis/disinformation, and public opinion. In my three-paper dissertation, I examine election denial and the informational environment in the United States. More specifically, I study how politicians communicate about contested elections, how the news media cover politicians' positions on those elections, and when voters hold politicians accountable for election denial.
 
 Beyond research, I serve as a teaching assistant in my department. I have led discussion sections for two courses: Introduction to American Politics (PSC-1002) and Scope and Methods of Political Science (PSC-2101). In Summer 2025, I was the primary instructor for a four-day math bootcamp for incoming PhD students.
 
